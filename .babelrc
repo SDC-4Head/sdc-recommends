@@ -1,0 +1,18 @@
+{
+  "env": {
+    "test": {
+      "presets": [
+        "env",
+        "react"
+      ],
+      "plugins": [
+        "transform-export-extensions",
+        "transform-es2015-modules-commonjs"
+      ],
+      "only": [
+        "./**/*.js",
+        "node_modules/jest-runtime"
+      ]
+    }
+  }
+}
