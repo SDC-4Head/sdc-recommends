@@ -67,8 +67,6 @@ app.delete('rooms/:roomsid/delete/', (req, res) => {
   });
 });
 
-// have to research the proper codes.
-
 app.listen(port, () => {
   console.log('server is connected');
 });
