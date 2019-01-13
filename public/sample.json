@@ -1,0 +1,284 @@
+id, title, premium, cost, picture, rcount,
+, stars, beds, favorite, description 
+[
+  { _id: 1,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 220,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(1).jpg',
+    rcount: 1513,
+    stars: 2,
+    beds: 6,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 2,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 161,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(2).jpg',
+    rcount: 29,
+    stars: 5,
+    beds: 2,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 3,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 213,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(3).jpg',
+    rcount: 1000,
+    stars: 3,
+    beds: 3,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 4,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 154,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(4).jpg',
+    rcount: 977,
+    stars: 6,
+    beds: 2,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 5,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 128,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(5).jpg',
+    rcount: 865,
+    stars: 3,
+    beds: 4,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 6,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 113,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(6).jpg',
+    rcount: 167,
+    stars: 2,
+    beds: 2,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 7,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 207,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(7).jpg',
+    rcount: 665,
+    stars: 4,
+    beds: 7,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 8,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 221,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(8).jpg',
+    rcount: 1170,
+    stars: 4,
+    beds: 2,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 9,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 167,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(9).jpg',
+    rcount: 58,
+    stars: 2,
+    beds: 2,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 10,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 149,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(10).jpg',
+    rcount: 1157,
+    stars: 4,
+    beds: 7,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 11,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 193,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(11).jpg',
+    rcount: 533,
+    stars: 3,
+    beds: 6,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 12,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 57,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(12).jpg',
+    rcount: 1181,
+    stars: 3,
+    beds: 5,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 13,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 200,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(13).jpg',
+    rcount: 136,
+    stars: 3,
+    beds: 2,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 14,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 185,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(14).jpg',
+    rcount: 1140,
+    stars: 5,
+    beds: 8,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 15,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 181,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(15).jpg',
+    rcount: 1257,
+    stars: 6,
+    beds: 6,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 16,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 183,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(16).jpg',
+    rcount: 535,
+    stars: 4,
+    beds: 6,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 17,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 56,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(17).jpg',
+    rcount: 1375,
+    stars: 4,
+    beds: 3,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 18,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 238,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(18).jpg',
+    rcount: 1086,
+    stars: 6,
+    beds: 4,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 19,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 248,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(19).jpg',
+    rcount: 323,
+    stars: 4,
+    beds: 6,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  },
+  { _id: 20,
+    title:
+     'Ad commodo amet nulla ea ipsum fugiat pariatur sunt exercitation tempor est.',
+    premium: true,
+    cost: 193,
+    picture:
+     'https: //s3-us-west-1.amazonaws.com/fec-ericmai-photos/fec+Photos/Bedroom+(20).jpg',
+    rcount: 1095,
+    stars: 6,
+    beds: 8,
+    favorite: true,
+    description:
+     'Ea nulla minim ad velit aliquip est. Veniam eu sunt ea aliqua dolore officia eiusmod. Ad qui reprehenderit ad laborum nulla magna ipsum deserunt do. Ullamco enim esse pariatur proident amet aliqua id labore Lorem laborum et. Eu aliqua et exercitation ullamco eiusmod excepteur deserunt eiusmod do mollit esse sunt.'
+  }
+]
