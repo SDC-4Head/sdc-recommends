@@ -39,7 +39,6 @@ const writeHead = () => new Promise((resolve, reject) => {
 // premium boolean,
 // rcount int,
 // stars int,
-const fileStream = fs.createWriteStream('../data/beta1.csv', { flags: 'a' });
 const paraConfig = {
   count: 1,
   units: 'paragraph',
@@ -58,13 +57,14 @@ const sentConfig = {
   format: 'plain',
   random: Math.random,
 };
+const fileStream = fs.createWriteStream('../data/beta0.csv', { flags: 'a' });
 
 const sent = loremIpsum;
 const randomBool = () => Math.random() >= 0.5;
 const randomNum = (from, to) => Math.floor(Math.random() * to + 1) + from;
 writeHead();
-for (let i = 1000000; i < 3000000; i += 1) {
-  const data = `${i},${sent(sentConfig)},${randomNum(1, 7)},${randomNum(50, 200)},${sent(paraConfig)},${randomBool()},http://d1bah53dmo2q93.cloudfront.net/${i % 1000}.jpg,${randomBool()},${randomNum(20, 1500)},${randomNum(1, 5)}\n`;
+for (let i = 0; i < 1000000; i += 1) {
+  const data = `1,${i},${randomNum(1, 7)},${randomNum(50, 200)},${sent(paraConfig)},${randomBool()},http://d1bah53dmo2q93.cloudfront.net/${i % 1000}.jpg,${randomBool()},${randomNum(20, 1500)},${randomNum(1, 5)},${sent(sentConfig)}\n`;
   writeOneMillionTimes(fileStream, data, 'utf8', () => {
     console.log(`entry #${i}`);
   });
