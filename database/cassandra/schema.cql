@@ -9,7 +9,7 @@ DROP TABLE IF EXISTS "similars";
 CREATE TABLE "similars"( 
   category_id int,
   clustering_id int,
-  title text,
+  room_name text,
   bed int,
   cost int,
   description text,
@@ -18,7 +18,8 @@ CREATE TABLE "similars"(
   premium boolean,
   rcount int,
   stars int,
-  PRIMARY KEY (category_id, clustering_id)
-) 
+  title text,
+  PRIMARY KEY (category_id, clustering_id, room_name)
+)
 WITH CLUSTERING ORDER BY (clustering_id DESC);
 CREATE INDEX similars_clustering_id_index ON similars (clustering_id);

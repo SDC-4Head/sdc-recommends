@@ -1,5 +1,5 @@
 counter=0
-while [ $counter -le 4 ]
+while [ $counter -le 6 ]
 do
    sed -i '' s/[0-9][0-9]*/$counter/g copy.cql
    cqlsh -f copy.cql

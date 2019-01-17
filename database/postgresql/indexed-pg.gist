@@ -1,0 +1,112 @@
+1
+{ room_id: 9991540,
+  room_name: 'room9991540',
+  bed: 7,
+  cost: 95,
+  description:
+   'Non ex labore proident ipsum adipisicing in in magna magna Lorem sit eu dolore sint. Ex minim aliqua ea voluptate ut non sint ullamco tempor cupidatat. Dolore velit ipsum labore sunt est aute et eu qui laboris. In irure reprehenderit sunt reprehenderit consectetur Lorem ad adipisicing culpa.',
+  favorite: false,
+  picture: 'http://d1bah53dmo2q93.cloudfront.net/540.jpg',
+  premium: true,
+  rcount: 1087,
+  stars: 3,
+  title:
+   'Est adipisicing minim tempor et qui adipisicing commodo Lorem labore et do amet.' }
+default: 38.057ms
+end
+1
+{ room_id: 9738978,
+  room_name: 'room9738978',
+  bed: 2,
+  cost: 184,
+  description:
+   'Tempor laboris minim sunt reprehenderit adipisicing nulla id elit ut. Lorem ex magna magna est culpa excepteur enim do ut veniam quis culpa. Proident ex adipisicing deserunt magna mollit laborum proident minim laborum non et. Ipsum quis laborum reprehenderit id minim enim dolor tempor et dolore consequat. Qui amet ex ex veniam qui non sit quis sint veniam incididunt.',
+  favorite: true,
+  picture: 'http://d1bah53dmo2q93.cloudfront.net/978.jpg',
+  premium: true,
+  rcount: 1432,
+  stars: 3,
+  title: 'Est eu enim proident Lorem eu fugiat id laborum anim do.' }
+default: 83.780ms
+end
+1
+{ room_id: 9740771,
+  room_name: 'room9740771',
+  bed: 2,
+  cost: 62,
+  description:
+   'Est laboris ullamco id elit aliqua adipisicing occaecat ullamco amet enim. Culpa Lorem minim officia enim non eu enim ipsum. Ut tempor commodo quis culpa ea culpa. Elit incididunt commodo cillum id culpa nulla pariatur consectetur laborum qui.',
+  favorite: true,
+  picture: 'http://d1bah53dmo2q93.cloudfront.net/771.jpg',
+  premium: true,
+  rcount: 73,
+  stars: 6,
+  title: 'Anim aliquip eiusmod ipsum sunt nulla tempor.' }
+default: 21.297ms
+end
+1
+{ room_id: 9103142,
+  room_name: 'room9103142',
+  bed: 8,
+  cost: 161,
+  description:
+   'Quis velit ea tempor dolor duis non fugiat irure commodo tempor pariatur magna in. Dolore culpa culpa consequat tempor enim laborum labore occaecat elit nostrud commodo. Sunt est sint fugiat Lorem est duis ea consectetur sit labore. Adipisicing fugiat consectetur minim excepteur.',
+  favorite: false,
+  picture: 'http://d1bah53dmo2q93.cloudfront.net/142.jpg',
+  premium: false,
+  rcount: 109,
+  stars: 3,
+  title: 'In et et irure consectetur culpa in quis velit fugiat.' }
+default: 28.978ms
+end
+1
+{ room_id: 9718875,
+  room_name: 'room9718875',
+  bed: 3,
+  cost: 107,
+  description:
+   'Cupidatat est voluptate sit eu eiusmod labore irure magna enim nulla nostrud incididunt eiusmod fugiat. Et fugiat laboris officia non magna et ipsum. Velit nostrud est incididunt occaecat magna aute nisi aliqua minim adipisicing velit.',
+  favorite: false,
+  picture: 'http://d1bah53dmo2q93.cloudfront.net/875.jpg',
+  premium: true,
+  rcount: 31,
+  stars: 2,
+  title:
+   'Esse reprehenderit do anim velit ex ullamco laborum fugiat sit anim officia fugiat laboris.' }
+default: 30.644ms
+end
+1
+{ room_id: 9820163,
+  room_name: 'room9820163',
+  bed: 7,
+  cost: 167,
+  description:
+   'Sit minim sit consequat do veniam pariatur. Eu id nulla laborum sunt. Est dolor irure pariatur veniam eiusmod est. Minim exercitation veniam Lorem consequat fugiat.',
+  favorite: true,
+  picture: 'http://d1bah53dmo2q93.cloudfront.net/163.jpg',
+  premium: true,
+  rcount: 104,
+  stars: 2,
+  title: 'Proident eu aute ad laborum consequat ipsum do nisi.' }
+default: 28.744ms
+end
+1
+{ room_id: 9477462,
+  room_name: 'room9477462',
+  bed: 6,
+  cost: 202,
+  description:
+   'Excepteur irure consectetur commodo excepteur occaecat cupidatat tempor minim aliqua deserunt labore ex. Deserunt cillum culpa aliquip in reprehenderit elit consequat aliqua cillum. Ipsum sint laborum ipsum duis cupidatat proident Lorem exercitation. Voluptate quis proident excepteur labore officia tempor velit reprehenderit cupidatat. Ullamco Lorem ea id proident amet laborum commodo sint ullamco ad occaecat ea. Excepteur sint laborum tempor incididunt do. Enim deserunt ad veniam ea deserunt anim nisi.',
+  favorite: true,
+  picture: 'http://d1bah53dmo2q93.cloudfront.net/462.jpg',
+  premium: false,
+  rcount: 1371,
+  stars: 4,
+  title:
+   'Lorem mollit ullamco amet eu adipisicing enim aute deserunt est laboris enim consectetur.' }
+default: 25.258ms
+end
+1
+undefined
+default: 92.947ms
+end
