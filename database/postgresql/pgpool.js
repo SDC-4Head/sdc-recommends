@@ -36,15 +36,16 @@ const getById = (query, queryArgs, callback) => new Promise((resolve, reject) =>
   });
 });
 
-const queryArgs = ['hey', 'hey'];
-// const query = 'SELECT * from similars where room_id = $1'; // select query
-const query = 'INSERT INTO similars (title, description) values($1,$2)';
-// const queryArgs = [Math.floor((Math.random() * (10000000 - 9000000)) + 9000000)];
+// const queryArgs = ['hey', 'hey'];
+const query = 'SELECT * from similars where room_id = $1'; // select query
+// const query = 'INSERT INTO similars (title, description) values($1,$2)';
+const queryArgs = [Math.floor((Math.random() * (10000000 - 9000000)) + 9000000)];
 // console.log(queryArgs);
 
 // get limit to 1 of a random 10% lower of 10 million queries.
 // const query = 'SELECT * from similars LIMIT 1 OFFSET\
 // (SELECT max(room_id) from similars) * .90';
+
 function foo(query, queryArgs) {
   timer()
     .then(() => getById(query, queryArgs, (err, data) => {

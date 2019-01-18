@@ -1,0 +1,666 @@
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner
+    init [----------------------------------------------------------] options
+    init [----------------------------------------------------------] executor
+    init [----------------------------------------------------------]   engine
+    init [----------------------------------------------------------]   collector
+    init [----------------------------------------------------------]   server
+  ➜  k6 git:(wip/stress-test) ✗ k6 run --rps 1000 script.js >> k6.txt
+  execution: local
+     output: -
+     script: script.js
+
+    duration: 1m0s, iterations: -
+         vus: 150,  max: 150
+
+    init [----------------------------------------------------------] starting
+    ✓ status was 200
+    ✗ transaction time OK
+     ↳  81% — ✓ 20449 / ✗ 4742
+
+    checks.....................: 90.58% ✓ 45610 ✗ 4742 
+    data_received..............: 32 MB  534 kB/s
+    data_sent..................: 6.7 MB 111 kB/s
+    http_req_blocked...........: avg=8.61µs   min=0s       med=2µs      max=18.63ms  p(90)=4µs      p(95)=6µs     
+    http_req_connecting........: avg=3.99µs   min=0s       med=0s       max=16.86ms  p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=125.9ms  min=28.94ms  med=111.71ms max=639.15ms p(90)=211.34ms p(95)=260.25ms
+    http_req_receiving.........: avg=23.7µs   min=9µs      med=20µs     max=28.6ms   p(90)=32µs     p(95)=40µs    
+    http_req_sending...........: avg=19.09µs  min=6µs      med=13µs     max=12.86ms  p(90)=24µs     p(95)=31µs    
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=125.86ms min=28.91ms  med=111.67ms max=639.11ms p(90)=211.27ms p(95)=260.2ms 
+    http_reqs..................: 50402  840.032901/s
+    iteration_duration.........: avg=357.14ms min=229.33ms med=323.13ms max=1.05s    p(90)=503.97ms p(95)=581.5ms 
+    iterations.................: 25143  419.049784/s
+    vus........................: 150    min=150 max=150
+    vus_max....................: 150    min=150 max=150
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner
+    init [----------------------------------------------------------] options
+    init [----------------------------------------------------------] executor
+    init [----------------------------------------------------------]   engine
+    init [----------------------------------------------------------]   collector
+    init [----------------------------------------------------------]   server
+  execution: local
+     output: -
+     script: script.js
+
+    duration: 1m0s, iterations: -
+         vus: 150,  max: 150
+
+    init [----------------------------------------------------------] starting
+    ✗ status was 200
+     ↳  99% — ✓ 28363 / ✗ 2
+    ✗ transaction time OK
+     ↳  94% — ✓ 26817 / ✗ 1548
+
+    checks.....................: 97.26% ✓ 55142 ✗ 1550 
+    data_received..............: 36 MB  601 kB/s
+    data_sent..................: 7.5 MB 125 kB/s
+    http_req_blocked...........: avg=5.51µs   min=0s       med=2µs      max=117.34ms p(90)=3µs      p(95)=4µs     
+    http_req_connecting........: avg=2.62µs   min=0s       med=0s       max=117.01ms p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=108.06ms min=0s       med=104.21ms max=363.47ms p(90)=157.38ms p(95)=175.59ms
+    http_req_receiving.........: avg=24.59µs  min=0s       med=19µs     max=154.12ms p(90)=29µs     p(95)=36µs    
+    http_req_sending...........: avg=13.8µs   min=0s       med=11µs     max=705µs    p(90)=20µs     p(95)=26µs    
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=108.02ms min=0s       med=104.17ms max=363.43ms p(90)=157.34ms p(95)=175.54ms
+    http_reqs..................: 56748  945.79779/s
+    iteration_duration.........: avg=317.43ms min=135.98ms med=312.72ms max=734.35ms p(90)=368.02ms p(95)=409.65ms
+    iterations.................: 28285  471.415565/s
+    vus........................: 150    min=150 max=150
+    vus_max....................: 150    min=150 max=150
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner
+    init [----------------------------------------------------------] options
+    init [----------------------------------------------------------] executor
+    init [----------------------------------------------------------]   engine
+    init [----------------------------------------------------------]   collector
+    init [----------------------------------------------------------]   server
+  execution: local
+     output: -
+     script: script.js
+
+    duration: 2m0s, iterations: -
+         vus: 150,  max: 150
+
+    init [----------------------------------------------------------] starting
+    ✓ status was 200
+    ✗ transaction time OK
+     ↳  93% — ✓ 52190 / ✗ 3690
+
+    checks.....................: 96.69% ✓ 107966 ✗ 3690 
+    data_received..............: 71 MB  593 kB/s
+    data_sent..................: 15 MB  123 kB/s
+    http_req_blocked...........: avg=3.93µs   min=0s       med=2µs      max=122.02ms p(90)=3µs      p(95)=4µs     
+    http_req_connecting........: avg=1.28µs   min=0s       med=0s       max=121.97ms p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=110.52ms min=23.89ms  med=106.35ms max=445.72ms p(90)=161.99ms p(95)=187.42ms
+    http_req_receiving.........: avg=21.22µs  min=9µs      med=18µs     max=3.82ms   p(90)=29µs     p(95)=37µs    
+    http_req_sending...........: avg=13.52µs  min=6µs      med=11µs     max=1.12ms   p(90)=20µs     p(95)=25µs    
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=110.49ms min=23.85ms  med=106.32ms max=445.69ms p(90)=161.95ms p(95)=187.39ms
+    http_reqs..................: 111730 931.081101/s
+    iteration_duration.........: avg=322.22ms min=213.55ms med=313.82ms max=735.89ms p(90)=381.44ms p(95)=430.7ms 
+    iterations.................: 55788  464.898886/s
+    vus........................: 150    min=150  max=150
+    vus_max....................: 150    min=150  max=150
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner
+    init [----------------------------------------------------------] options
+    init [----------------------------------------------------------] executor
+    init [----------------------------------------------------------]   engine
+    init [----------------------------------------------------------]   collector
+    init [----------------------------------------------------------]   server
+  execution: local
+     output: -
+     script: script.js
+
+    duration: 2m0s, iterations: -
+         vus: 150,  max: 150
+
+    init [----------------------------------------------------------] starting
+    ✓ status was 200
+    ✗ transaction time OK
+     ↳  95% — ✓ 55151 / ✗ 2587
+
+    checks.....................: 97.77% ✓ 112676 ✗ 2566 
+    data_received..............: 73 MB  612 kB/s
+    data_sent..................: 15 MB  127 kB/s
+    http_req_blocked...........: avg=2.8µs    min=0s       med=2µs      max=2.05ms   p(90)=3µs      p(95)=4µs     
+    http_req_connecting........: avg=268ns    min=0s       med=0s       max=1.09ms   p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=105.63ms min=9.5ms    med=102.67ms max=426.32ms p(90)=152.74ms p(95)=174.66ms
+    http_req_receiving.........: avg=20.32µs  min=8µs      med=18µs     max=954µs    p(90)=27µs     p(95)=33µs    
+    http_req_sending...........: avg=12.93µs  min=5µs      med=11µs     max=5.56ms   p(90)=18µs     p(95)=24µs    
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=105.6ms  min=9.42ms   med=102.64ms max=426.29ms p(90)=152.7ms  p(95)=174.62ms
+    http_reqs..................: 115304 960.864808/s
+    iteration_duration.........: avg=312.25ms min=196.59ms med=306.46ms max=621.31ms p(90)=366.95ms p(95)=395.12ms
+    iterations.................: 57588  479.899072/s
+    vus........................: 150    min=150  max=150
+    vus_max....................: 150    min=150  max=150
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner
+    init [----------------------------------------------------------] options
+    init [----------------------------------------------------------] executor
+    init [----------------------------------------------------------]   engine
+    init [----------------------------------------------------------]   collector
+    init [----------------------------------------------------------]   server
+  execution: local
+     output: -
+     script: script.js
+
+    duration: 2m0s, iterations: -
+         vus: 150,  max: 150
+
+    init [----------------------------------------------------------] starting
+    ✓ status was 200
+    ✗ transaction time OK
+     ↳  93% — ✓ 52642 / ✗ 3832
+
+    checks.....................: 96.60% ✓ 109074 ✗ 3832 
+    data_received..............: 72 MB  599 kB/s
+    data_sent..................: 15 MB  125 kB/s
+    http_req_blocked...........: avg=5.79µs   min=0s       med=2µs      max=8.83ms   p(90)=3µs      p(95)=4µs     
+    http_req_connecting........: avg=3.03µs   min=0s       med=0s       max=8.79ms   p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=108.86ms min=23.34ms  med=104.34ms max=427.51ms p(90)=162.16ms p(95)=188.88ms
+    http_req_receiving.........: avg=20.94µs  min=9µs      med=18µs     max=2.37ms   p(90)=29µs     p(95)=34µs    
+    http_req_sending...........: avg=13.49µs  min=5µs      med=11µs     max=4.72ms   p(90)=19µs     p(95)=23µs    
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=108.83ms min=23.3ms   med=104.31ms max=427.47ms p(90)=162.12ms p(95)=188.84ms
+    http_reqs..................: 112946 941.216538/s
+    iteration_duration.........: avg=318.66ms min=213.68ms med=309.51ms max=757.51ms p(90)=381.63ms p(95)=420.62ms
+    iterations.................: 56386  469.883269/s
+    vus........................: 150    min=150  max=150
+    vus_max....................: 150    min=150  max=150
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner
+    init [----------------------------------------------------------] options
+    init [----------------------------------------------------------] executor
+    init [----------------------------------------------------------]   engine
+    init [----------------------------------------------------------]   collector
+    init [----------------------------------------------------------]   server
+  execution: local
+     output: -
+     script: script.js
+
+    duration: 10m0s, iterations: -
+         vus: 200,   max: 200
+
+    init [----------------------------------------------------------] starting
+    ✗ status was 200
+     ↳  99% — ✓ 210820 / ✗ 3
+    ✗ transaction time OK
+     ↳  14% — ✓ 30256 / ✗ 180567
+
+    checks.....................: 57.17% ✓ 240866 ✗ 180408
+    data_received..............: 269 MB 448 kB/s
+    data_sent..................: 56 MB  93 kB/s
+    http_req_blocked...........: avg=11.73µs  min=0s       med=2µs      max=114.93ms p(90)=4µs      p(95)=5µs     
+    http_req_connecting........: avg=8.7µs    min=0s       med=0s       max=114.87ms p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=233.72ms min=0s       med=207.34ms max=3.25s    p(90)=371.22ms p(95)=476.57ms
+    http_req_receiving.........: avg=45.04µs  min=0s       med=22µs     max=238.25ms p(90)=45µs     p(95)=57µs    
+    http_req_sending...........: avg=24.25µs  min=0s       med=13µs     max=153.18ms p(90)=27µs     p(95)=35µs    
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=233.65ms min=0s       med=207.28ms max=3.25s    p(90)=371.13ms p(95)=476.4ms 
+    http_reqs..................: 421373 702.288318/s
+    iteration_duration.........: avg=569.37ms min=112.91ms med=501.07ms max=4.99s    p(90)=780.03ms p(95)=955.48ms
+    iterations.................: 210623 351.038326/s
+    vus........................: 200    min=200  max=200 
+    vus_max....................: 200    min=200  max=200 
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner
+    init [----------------------------------------------------------] options
+    init [----------------------------------------------------------] executor
+    init [----------------------------------------------------------]   engine
+    init [----------------------------------------------------------]   collector
+    init [----------------------------------------------------------]   server
+  execution: local
+     output: -
+     script: script.js
+
+    duration: 10m0s, iterations: -
+         vus: 200,   max: 200
+
+    init [----------------------------------------------------------] starting
+    ✗ status was 200
+     ↳  99% — ✓ 236039 / ✗ 1
+    ✗ transaction time OK
+     ↳  21% — ✓ 50539 / ✗ 185501
+
+    checks.....................: 60.71% ✓ 286407 ✗ 185335
+    data_received..............: 314 MB 523 kB/s
+    data_sent..................: 62 MB  104 kB/s
+    http_req_blocked...........: avg=8.69µs   min=0s       med=2µs      max=125.24ms p(90)=3µs      p(95)=4µs     
+    http_req_connecting........: avg=3.13µs   min=0s       med=0s       max=125.2ms  p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=203.34ms min=0s       med=186.75ms max=3.06s    p(90)=312.31ms p(95)=379.68ms
+    http_req_receiving.........: avg=34.11µs  min=0s       med=21µs     max=224.66ms p(90)=41µs     p(95)=52µs    
+    http_req_sending...........: avg=19.57µs  min=0s       med=12µs     max=110.35ms p(90)=24µs     p(95)=31µs    
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=203.29ms min=0s       med=186.7ms  max=3.06s    p(90)=312.24ms p(95)=379.61ms
+    http_reqs..................: 471908 786.513111/s
+    iteration_duration.........: avg=507.96ms min=106.07ms med=458.53ms max=4.54s    p(90)=656.69ms p(95)=805.31ms
+    iterations.................: 235840 393.066556/s
+    vus........................: 200    min=200  max=200 
+    vus_max....................: 200    min=200  max=200 
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner
+    init [----------------------------------------------------------] options
+    init [----------------------------------------------------------] executor
+    init [----------------------------------------------------------]   engine
+    init [----------------------------------------------------------]   collector
+    init [----------------------------------------------------------]   server
+  execution: local
+     output: -
+     script: script.js
+
+    duration: 10m0s, iterations: -
+         vus: 200,   max: 200
+
+    init [----------------------------------------------------------] starting
+    ✗ status was 200
+     ↳  99% — ✓ 2009 / ✗ 1
+    ✗ transaction time OK
+     ↳  0% — ✓ 4 / ✗ 2006
+
+    checks.....................: 50.07% ✓ 2013  ✗ 2007 
+    data_received..............: 2.7 MB 411 kB/s
+    data_sent..................: 532 kB 82 kB/s
+    http_req_blocked...........: avg=4.08ms   min=0s      med=2µs      max=176.63ms p(90)=4µs      p(95)=30µs    
+    http_req_connecting........: avg=2.24ms   min=0s      med=0s       max=140.42ms p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=247.05ms min=0s      med=252.74ms max=520.56ms p(90)=423.84ms p(95)=444.92ms
+    http_req_receiving.........: avg=25.76µs  min=0s      med=22µs     max=2.78ms   p(90)=32µs     p(95)=39µs    
+    http_req_sending...........: avg=37.83µs  min=0s      med=13µs     max=12.14ms  p(90)=24µs     p(95)=39µs    
+    http_req_tls_handshaking...: avg=0s       min=0s      med=0s       max=0s       p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=246.99ms min=0s      med=252.69ms max=520.51ms p(90)=423.8ms  p(95)=444.88ms
+    http_reqs..................: 4206   648.753389/s
+    iteration_duration.........: avg=611.02ms min=251.9ms med=530.27ms max=1.15s    p(90)=830.92ms p(95)=994.4ms 
+    iterations.................: 2004   309.106465/s
+    vus........................: 200    min=200 max=200
+    vus_max....................: 200    min=200 max=200
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner
+    init [----------------------------------------------------------] options
+    init [----------------------------------------------------------] executor
+    init [----------------------------------------------------------]   engine
+    init [----------------------------------------------------------]   collector
+    init [----------------------------------------------------------]   server
+  execution: local
+     output: -
+     script: script.js
+
+    duration: 10m0s, iterations: -
+         vus: 200,   max: 200
+
+    init [----------------------------------------------------------] starting
+    ✗ status was 200
+     ↳  99% — ✓ 77262 / ✗ 2
+    ✗ transaction time OK
+     ↳  26% — ✓ 20833 / ✗ 56431
+
+    checks.....................: 63.48% ✓ 98095 ✗ 56433
+    data_received..............: 103 MB 586 kB/s
+    data_sent..................: 20 MB  117 kB/s
+    http_req_blocked...........: avg=21.43µs  min=0s       med=2µs      max=132.53ms p(90)=3µs      p(95)=4µs     
+    http_req_connecting........: avg=18.48µs  min=0s       med=0s       max=124.79ms p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=175.94ms min=0s       med=172.69ms max=718.99ms p(90)=262.36ms p(95)=294.99ms
+    http_req_receiving.........: avg=23.97µs  min=0s       med=20µs     max=10.75ms  p(90)=32µs     p(95)=39µs    
+    http_req_sending...........: avg=14.47µs  min=0s       med=12µs     max=13.63ms  p(90)=19µs     p(95)=25µs    
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=175.9ms  min=0s       med=172.65ms max=717.99ms p(90)=262.32ms p(95)=294.95ms
+    http_reqs..................: 154704 882.70603/s
+    iteration_duration.........: avg=453.03ms min=104.52ms med=437.43ms max=1.07s    p(90)=547.35ms p(95)=601.31ms
+    iterations.................: 77242  440.72538/s
+    vus........................: 200    min=200 max=200
+    vus_max....................: 200    min=200 max=200
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner
+    init [----------------------------------------------------------] options
+    init [----------------------------------------------------------] executor
+    init [----------------------------------------------------------]   engine
+    init [----------------------------------------------------------]   collector
+    init [----------------------------------------------------------]   server
+  execution: local
+     output: -
+     script: script.js
+
+    duration: 10m0s, iterations: -
+         vus: 200,   max: 200
+
+    init [----------------------------------------------------------] starting
+    ✗ status was 200
+     ↳  99% — ✓ 9953 / ✗ 4
+    ✗ transaction time OK
+     ↳  3% — ✓ 310 / ✗ 9647
+
+    checks.....................: 51.53% ✓ 10263 ✗ 9651 
+    data_received..............: 13 MB  493 kB/s
+    data_sent..................: 2.6 MB 98 kB/s
+    http_req_blocked...........: avg=120.28µs min=0s      med=2µs      max=25.46ms  p(90)=3µs      p(95)=4µs     
+    http_req_connecting........: avg=71.03µs  min=0s      med=0s       max=14.92ms  p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=215.52ms min=0s      med=221.17ms max=563.86ms p(90)=331.83ms p(95)=377.06ms
+    http_req_receiving.........: avg=28.72µs  min=0s      med=23µs     max=17.8ms   p(90)=36µs     p(95)=43µs    
+    http_req_sending...........: avg=18.31µs  min=0s      med=13µs     max=3.95ms   p(90)=22µs     p(95)=28µs    
+    http_req_tls_handshaking...: avg=0s       min=0s      med=0s       max=0s       p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=215.47ms min=0s      med=221.15ms max=563.83ms p(90)=331.79ms p(95)=377.02ms
+    http_reqs..................: 20038  748.603627/s
+    iteration_duration.........: avg=533.61ms min=145.1ms med=493.31ms max=909.33ms p(90)=699.08ms p(95)=749.38ms
+    iterations.................: 9930   370.976845/s
+    vus........................: 200    min=200 max=200
+    vus_max....................: 200    min=200 max=200
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner    init [----------------------------------------------------------] options    init [----------------------------------------------------------] executor    init [----------------------------------------------------------]   engine    init [----------------------------------------------------------]   collector    init [----------------------------------------------------------]   server  execution: local
+     output: -
+     script: script.js
+
+    duration: 10m0s, iterations: -
+         vus: 200,   max: 200
+
+    init [----------------------------------------------------------] starting
+    ✗ status was 200
+     ↳  99% — ✓ 159393 / ✗ 38
+    ✗ transaction time OK
+     ↳  0% — ✓ 93 / ✗ 159338
+
+    checks.....................: 50.01% ✓ 159486 ✗ 159376
+    data_received..............: 335 MB 585 kB/s
+    data_sent..................: 15 MB  26 kB/s
+    http_req_blocked...........: avg=47.95µs  min=0s       med=3µs      max=127.99ms p(90)=4µs      p(95)=5µs  
+    http_req_connecting........: avg=38.72µs  min=0s       med=0s       max=120.06ms p(90)=0s       p(95)=0s   
+    http_req_duration..........: avg=616.51ms min=0s       med=550.27ms max=5.41s    p(90)=871.2ms  p(95)=1.02s
+    http_req_receiving.........: avg=47.82µs  min=0s       med=18µs     max=274.55ms p(90)=38µs     p(95)=49µs 
+    http_req_sending...........: avg=23.34µs  min=0s       med=12µs     max=57.78ms  p(90)=27µs     p(95)=36µs 
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s   
+    http_req_waiting...........: avg=616.44ms min=0s       med=550.2ms  max=5.41s    p(90)=871.06ms p(95)=1.02s
+    http_reqs..................: 159431 278.566715/s
+    iteration_duration.........: avg=717.65ms min=108.04ms med=651.37ms max=5.63s    p(90)=972.49ms p(95)=1.12s
+    iterations.................: 159345 278.416451/s
+    vus........................: 200    min=200  max=200 
+    vus_max....................: 200    min=200  max=200 
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner    init [----------------------------------------------------------] options    init [----------------------------------------------------------] executor    init [----------------------------------------------------------]   engine    init [----------------------------------------------------------]   collector    init [----------------------------------------------------------]   server  execution: local
+     output: -
+     script: script.js
+
+    duration: 10m0s, iterations: -
+         vus: 200,   max: 200
+
+    init [----------------------------------------------------------] starting
+    ✗ status was 200
+     ↳  0% — ✓ 0 / ✗ 575551
+    ✗ transaction time OK
+     ↳  95% — ✓ 550091 / ✗ 25460
+
+    checks.....................: 47.78% ✓ 549999 ✗ 600919
+    data_received..............: 251 MB 419 kB/s
+    data_sent..................: 59 MB  98 kB/s
+    http_req_blocked...........: avg=13.61µs  min=1µs      med=3µs      max=127.41ms p(90)=3µs      p(95)=4µs     
+    http_req_connecting........: avg=9.79µs   min=0s       med=0s       max=127.38ms p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=107.64ms min=6.21ms   med=94.46ms  max=1.11s    p(90)=154.29ms p(95)=191.43ms
+    http_req_receiving.........: avg=26.46µs  min=6µs      med=19µs     max=342.23ms p(90)=31µs     p(95)=38µs    
+    http_req_sending...........: avg=18.34µs  min=6µs      med=12µs     max=357.78ms p(90)=21µs     p(95)=28µs    
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=107.6ms  min=6.17ms   med=94.43ms  max=1.11s    p(90)=154.23ms p(95)=191.37ms
+    http_reqs..................: 575459 959.09824/s
+    iteration_duration.........: avg=208.41ms min=106.59ms med=195.06ms max=1.21s    p(90)=255.26ms p(95)=292.64ms
+    iterations.................: 575357 958.92824/s
+    vus........................: 200    min=200  max=200 
+    vus_max....................: 200    min=200  max=200 
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner    init [----------------------------------------------------------] options    init [----------------------------------------------------------] executor    init [----------------------------------------------------------]   engine    init [----------------------------------------------------------]   collector    init [----------------------------------------------------------]   server  execution: local
+     output: -
+     script: script.js
+
+    duration: 10m0s, iterations: -
+         vus: 200,   max: 200
+
+    init [----------------------------------------------------------] starting
+    ✗ transaction time OK
+     ↳  0% — ✓ 584 / ✗ 172800
+    ✓ status was 200
+
+    checks.....................: 50.16% ✓ 173968 ✗ 172800
+    data_received..............: 366 MB 610 kB/s
+    data_sent..................: 17 MB  29 kB/s
+    http_req_blocked...........: avg=10.89µs  min=1µs      med=3µs      max=20.47ms p(90)=3µs      p(95)=4µs     
+    http_req_connecting........: avg=6µs      min=0s       med=0s       max=15.65ms p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=591.14ms min=13.03ms  med=555.11ms max=3.71s   p(90)=736.29ms p(95)=862.87ms
+    http_req_receiving.........: avg=23.18µs  min=7µs      med=17µs     max=18.45ms p(90)=30µs     p(95)=37µs    
+    http_req_sending...........: avg=16.93µs  min=6µs      med=12µs     max=21.36ms p(90)=23µs     p(95)=30µs    
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s      p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=591.1ms  min=13ms     med=555.08ms max=3.71s   p(90)=736.25ms p(95)=862.78ms
+    http_reqs..................: 173384 288.973316/s
+    iteration_duration.........: avg=691.87ms min=116.42ms med=655.75ms max=3.84s   p(90)=837.93ms p(95)=963.75ms
+    iterations.................: 173296 288.826649/s
+    vus........................: 200    min=200  max=200 
+    vus_max....................: 200    min=200  max=200 
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner    init [----------------------------------------------------------] options    init [----------------------------------------------------------] executor    init [----------------------------------------------------------]   engine    init [----------------------------------------------------------]   collector    init [----------------------------------------------------------]   server  execution: local
+     output: -
+     script: script.js
+
+    duration: 10m0s, iterations: -
+         vus: 200,   max: 200
+
+    init [----------------------------------------------------------] starting
+    ✗ status was 200
+     ↳  99% — ✓ 173981 / ✗ 4
+    ✗ transaction time OK
+     ↳  0% — ✓ 61 / ✗ 173924
+
+    checks.....................: 50.01% ✓ 173924 ✗ 173810
+    data_received..............: 366 MB 609 kB/s
+    data_sent..................: 17 MB  29 kB/s
+    http_req_blocked...........: avg=64.87µs  min=0s       med=2µs      max=234.46ms p(90)=3µs      p(95)=4µs     
+    http_req_connecting........: avg=61.06µs  min=0s       med=0s       max=234.37ms p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=588.77ms min=0s       med=542.73ms max=3.35s    p(90)=700.94ms p(95)=855.86ms
+    http_req_receiving.........: avg=27.14µs  min=0s       med=16µs     max=91.89ms  p(90)=32µs     p(95)=40µs    
+    http_req_sending...........: avg=21.46µs  min=0s       med=11µs     max=83.18ms  p(90)=23µs     p(95)=30µs    
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=588.73ms min=0s       med=542.69ms max=3.35s    p(90)=700.89ms p(95)=855.77ms
+    http_reqs..................: 173867 289.778312/s
+    iteration_duration.........: avg=689.72ms min=112.13ms med=643.56ms max=3.68s    p(90)=802.26ms p(95)=956.94ms
+    iterations.................: 173850 289.749979/s
+    vus........................: 200    min=200  max=200 
+    vus_max....................: 200    min=200  max=200 
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner    init [----------------------------------------------------------] options    init [----------------------------------------------------------] executor    init [----------------------------------------------------------]   engine    init [----------------------------------------------------------]   collector    init [----------------------------------------------------------]   server  execution: local
+     output: -
+     script: script.js
+
+    duration: 10m0s, iterations: -
+         vus: 200,   max: 200
+
+    init [----------------------------------------------------------] starting
+    ✓ status was 200
+    ✗ transaction time OK
+     ↳  0% — ✓ 409 / ✗ 156788
+
+    checks.....................: 50.13% ✓ 157606 ✗ 156788
+    data_received..............: 331 MB 552 kB/s
+    data_sent..................: 16 MB  26 kB/s
+    http_req_blocked...........: avg=124.11µs min=1µs      med=3µs      max=165.57ms p(90)=4µs      p(95)=5µs  
+    http_req_connecting........: avg=114.91µs min=0s       med=0s       max=155.93ms p(90)=0s       p(95)=0s   
+    http_req_duration..........: avg=661.59ms min=21.37ms  med=564.95ms max=6.06s    p(90)=917.16ms p(95)=1.17s
+    http_req_receiving.........: avg=54.25µs  min=6µs      med=18µs     max=215.06ms p(90)=37µs     p(95)=51µs 
+    http_req_sending...........: avg=36.23µs  min=5µs      med=12µs     max=196.74ms p(90)=27µs     p(95)=36µs 
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s   
+    http_req_waiting...........: avg=661.5ms  min=21.33ms  med=564.89ms max=6.06s    p(90)=917.06ms p(95)=1.17s
+    http_reqs..................: 157197 261.99494/s
+    iteration_duration.........: avg=763.09ms min=121.64ms med=666.08ms max=6.16s    p(90)=1.01s    p(95)=1.28s
+    iterations.................: 157093 261.821607/s
+    vus........................: 200    min=200  max=200 
+    vus_max....................: 200    min=200  max=200 
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner    init [----------------------------------------------------------] options    init [----------------------------------------------------------] executor    init [----------------------------------------------------------]   engine    init [----------------------------------------------------------]   collector    init [----------------------------------------------------------]   server  execution: local
+     output: -
+     script: script.js
+
+    duration: 10m0s, iterations: -
+         vus: 200,   max: 200
+
+    init [----------------------------------------------------------] starting
+    ✗ status was 200
+     ↳  99% — ✓ 162404 / ✗ 2
+    ✗ transaction time OK
+     ↳  0% — ✓ 675 / ✗ 161731
+
+    checks.....................: 50.20% ✓ 163079 ✗ 161733
+    data_received..............: 338 MB 564 kB/s
+    data_sent..................: 16 MB  27 kB/s
+    http_req_blocked...........: avg=80.8µs   min=0s       med=2µs      max=143.72ms p(90)=3µs      p(95)=4µs  
+    http_req_connecting........: avg=72.15µs  min=0s       med=0s       max=133.33ms p(90)=0s       p(95)=0s   
+    http_req_duration..........: avg=637.59ms min=0s       med=535.93ms max=6.34s    p(90)=869.23ms p(95)=1.19s
+    http_req_receiving.........: avg=42.84µs  min=0s       med=17µs     max=288.25ms p(90)=33µs     p(95)=43µs 
+    http_req_sending...........: avg=21.26µs  min=0s       med=11µs     max=37.35ms  p(90)=24µs     p(95)=31µs 
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s   
+    http_req_waiting...........: avg=637.52ms min=0s       med=535.89ms max=6.34s    p(90)=869.12ms p(95)=1.19s
+    http_reqs..................: 162406 270.676572/s
+    iteration_duration.........: avg=738.68ms min=113.07ms med=636.68ms max=6.44s    p(90)=970.75ms p(95)=1.29s
+    iterations.................: 162353 270.588239/s
+    vus........................: 200    min=200  max=200 
+    vus_max....................: 200    min=200  max=200 
+
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner    init [----------------------------------------------------------] options    init [----------------------------------------------------------] executor    init [----------------------------------------------------------]   engine    init [----------------------------------------------------------]   collector    init [----------------------------------------------------------]   server  execution: local
+     output: -
+     script: script.js
+
+    duration: 10m0s, iterations: -
+         vus: 200,   max: 200
+
+    init [----------------------------------------------------------] starting
+    ✗ transaction time OK
+     ↳  0% — ✓ 120 / ✗ 107545
+    ✓ status was 200
+
+    checks.....................: 50.05% ✓ 107785 ✗ 107545
+    data_received..............: 226 MB 377 kB/s
+    data_sent..................: 11 MB  18 kB/s
+    http_req_blocked...........: avg=317.7µs  min=1µs     med=3µs      max=699.57ms p(90)=5µs   p(95)=12µs 
+    http_req_connecting........: avg=91.84µs  min=0s      med=0s       max=124.84ms p(90)=0s    p(95)=0s   
+    http_req_duration..........: avg=1s       min=11.82ms med=597.69ms max=14.35s   p(90)=1.99s p(95)=3.33s
+    http_req_receiving.........: avg=206.96µs min=6µs     med=19µs     max=1.31s    p(90)=51µs  p(95)=82µs 
+    http_req_sending...........: avg=4.39ms   min=5µs     med=12µs     max=7.93s    p(90)=34µs  p(95)=50µs 
+    http_req_tls_handshaking...: avg=0s       min=0s      med=0s       max=0s       p(90)=0s    p(95)=0s   
+    http_req_waiting...........: avg=1s       min=11.78ms med=597.63ms max=10.07s   p(90)=1.99s p(95)=3.33s
+    http_reqs..................: 107665 179.441594/s
+    iteration_duration.........: avg=1.11s    min=112.9ms med=699.15ms max=14.45s   p(90)=2.1s  p(95)=3.43s
+    iterations.................: 107665 179.441594/s
+    vus........................: 200    min=200  max=200 
+    vus_max....................: 200    min=200  max=200 
+

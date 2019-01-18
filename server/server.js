@@ -1,26 +1,75 @@
+require('newrelic');
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
-const db = require('../database/index.js');
 
 const app = express();
 const port = 3123;
 
+const redis = require('redis'); // redis
+const responseTime = require('response-time');
+const db = require('../database/');
+
+const client = redis.createClient(); // redis
+
+// / redis
+client.on('error', (err) => {
+  console.log(`Error ${err}`);
+});
+
+app.use(responseTime());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/rooms/:roomids/', express.static(path.join(__dirname, '/../public')));
 
-const findLatestPhoto = () => db.photoAdd.find({}).sort({ _id: 1 }).limit(1);
+// const findLatestPhoto = () => db.photoAdd.find({}).sort({ _id: 1 }).limit(1);
 
-app.get('/house', (req, res) => {
-  db.find({}, (err, data) => {
+app.get('/rooms/:roomsid/house', (req, res) => {
+  console.info('redismode');
+
+  return client.get(`rooms${req.params.roomsid}`, (err, result) => {
     if (err) {
-      res.sendStatus(500);
+      res.sendStatus(404);
+    }
+    if (result) {
+      res.status(200).send(result);
     } else {
-      res.send(data);
+      db.getSample(3, (error, data) => {
+        const redisKey = `rooms${req.params.roomsid}`;
+        if (error) {
+          console.log(error);
+          res.send(404);
+        }
+        client.set(`${redisKey}`, `${JSON.stringify(data)}`, 'EX', 6000, (err, data) => {
+          res.status(200).json(data);
+        });
+      });
     }
   });
 });
+
+
+// app.get('/house/:roomsid', (req, res) => {
+//   console.info('hello');
+//   return db.getSample(10, (err, data) => {
+//     if (err) {
+//       console.log(err);
+//       res.sendStatus(404);
+//       return;
+//     }
+//     res.send(data);
+//   });
+// });
+
+// app.get('/house', (req, res) => {
+//   db.find({}, (err, data) => {
+//     if (err) {
+//       res.sendStatus(500);
+//     } else {
+//       res.send(data);
+//     }
+//   });
+// });
 
 // app.post is undoable without rewriting the schema.
 // he overwrites _id. Mongoose is not allowed to overwrite _id.

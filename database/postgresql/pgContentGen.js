@@ -9,7 +9,7 @@ const writeHead = stream => new Promise((resolve, reject) => {
   const data = [
     'room_id',
     'room_name',
-    'bed',
+    'beds',
     'cost',
     'description',
     'favorite',
