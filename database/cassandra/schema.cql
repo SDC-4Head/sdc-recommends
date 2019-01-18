@@ -10,7 +10,7 @@ CREATE TABLE "similars"(
   category_id int,
   clustering_id int,
   room_name text,
-  bed int,
+  beds int,
   cost int,
   description text,
   favorite boolean,

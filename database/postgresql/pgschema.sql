@@ -4,7 +4,6 @@ DROP USER IF EXISTS marios;
 
 CREATE USER marios;
 CREATE DATABASE dbmarlio;
-
 \c dbmarlio;
 
 DROP TABLE IF EXISTS similars;
@@ -12,7 +11,7 @@ CREATE TABLE similars
 (
   room_id serial primary key,
   room_name text not null,
-  bed int not null,
+  beds int not null,
   cost int not null,
   description text not null,
   favorite boolean not null,

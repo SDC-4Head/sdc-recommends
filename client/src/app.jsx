@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import List from './Components/List.jsx';
 
+const url = require('url');
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -11,7 +13,8 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch('/house', {
+    const pathname = window.location.pathname.split('/')[2];
+    fetch(`/rooms/${pathname}/house`, {
       method: 'GET',
       headers: { 'Content-type': 'application/json' },
     })
