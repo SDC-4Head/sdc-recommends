@@ -1,4 +1,6 @@
+const path = require('path');
 
+const dotenvPath = path.resolve(__dirname, './.env');
 
 /**
  * New Relic agent configuration.
@@ -6,6 +8,8 @@
  * See lib/config/default.js in the agent distribution for a more complete
  * description of configuration variables and their potential values.
  */
+require('dotenv').config(dotenvPath);
+
 exports.config = {
   /**
    * Array of application names.
@@ -14,7 +18,7 @@ exports.config = {
   /**
    * Your New Relic license key.
    */
-  license_key: '0492ff14dd5d981683a8291ce36fe2f063217d82',
+  license_key: process.env.RELIC_KEY,
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to New Relic when diagnosing
